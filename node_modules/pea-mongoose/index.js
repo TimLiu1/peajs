@@ -1,0 +1,1 @@
+let db = module.exports = require('./lib/connect');
