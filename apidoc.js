@@ -1,8 +1,8 @@
 {
-  "name": "test-add-mongo",
+  "name": "PEAJS",
   "version": "0.1.0",
-  "description": "the api document for test-add-mongo",
-  "title": "test-add-mongo",
+  "description": "the api document for PEAJS",
+  "title": "PEAJS",
   "url" : "http://localhost:8899",
   "sampleUrl": "http://localhost:8899",
   "header": {
