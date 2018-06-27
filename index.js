@@ -38,6 +38,14 @@ app.use(async (ctx, next) => {
 });
 app.use(responseJSON());
 
+app.use((ctx, next) => {
+    try{
+        await next();
+    } catch (error) {
+        logger.error('error', error);
+        ctx.body = error.toString();
+    }
+})
 
 // routes
 app.use(index.routes(), index.allowedMethods());
